@@ -5,6 +5,8 @@ body{
     line-height: 30px;
 }
 
+/* header styles */
+
 header{
     background-color: #3366CC;
     text-align: center;
@@ -22,6 +24,7 @@ header h1{
 h2{
     font-family: 'Audiowide', cursive;
     font-size: 30px; color: #6699CC;
+    margin: 40px 0 10px;
 }
 
 header img{
@@ -33,7 +36,7 @@ header img{
 main{
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
 
 }
 
@@ -59,4 +62,10 @@ footer{
 
 footer p{
     margin: 0;
+}
+
+p.caption{
+    color: #999999;
+    font-style: italic;
+    margin-top: 0;
 }
